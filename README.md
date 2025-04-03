@@ -11,7 +11,7 @@ This repository demonstrates the implementation of **Low-Rank Adaptation (LoRA)*
 ### Overview
 LoRA is a technique designed to reduce the computational and memory overhead associated with fine-tuning large neural networks. Instead of updating all parameters, LoRA introduces low-rank matrices ( A ) and ( B ) into the weight matrices of the model. The modified weights are expressed as:
 \[
-∆W = W + (B * A) * scale
+W' = W + (B * A) * scale
 \]
 where:
 - ( W ): Original weight matrix.
