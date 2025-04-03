@@ -1,6 +1,6 @@
 # Low-Rank Adaptation (LoRA) for Efficient Fine-Tuning
 
-This repository demonstrates the implementation of **Low-Rank Adaptation (LoRA)**, a parameter-efficient fine-tuning method for large neural networks, using PyTorch. The project focuses on applying LoRA to fine-tune a neural network trained on the MNIST dataset.
+This repository demonstrates the implementation of **Low-Rank Adaptation (LoRA)**, a parameter-efficient fine-tuning method for large neural networks, using PyTorch. [Original paper](https://arxiv.org/pdf/2106.09685)
 
 ![Prediction Plot](Images/LoRA.png)
 
